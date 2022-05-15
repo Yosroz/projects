@@ -12,3 +12,13 @@ MongoClient.connect(url, function(err, db) {
   });
 });
 
+MongoClient.connect(url, function(err, db) {
+  if (err) throw err;
+  var dbo = db.db("saknai");
+  dbo.collection("people").findOne({name:"test"}, function(err, result) {
+    if (err) throw err;
+    console.log(result.address);
+    db.close();
+  });
+});
+
