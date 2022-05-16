@@ -25,3 +25,16 @@ function loadlogin(){
 
     })
 }
+function loadsignup(){
+    fetch("http://localhost:3000/signup.html").then(function(response){
+        return response.text()
+    })
+    .then(function(html){
+
+        document.getElementById("renderPage").innerHTML= html;
+
+
+
+
+    })
+}
