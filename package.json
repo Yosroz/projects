@@ -9,15 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yosroz/AfterMe.git"
+    "url": "git+https://github.com/Yosroz/projects.git"
   },
   "author": "yosi rozenberg, asaf nunu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Yosroz/AfterMe/issues"
   },
-  "homepage": "https://github.com/Yosroz/AfterMe#readme",
+  "homepage": "https://github.com/Yosroz/projects#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongodb": "^4.5.0",
     "nodemon": "^2.0.16"

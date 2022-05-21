@@ -18,11 +18,18 @@
           </div>
       
           <!-- Login Form -->
-          <form>
-            <input type="text" id="username" class="fadeIn second" name="username" placeholder="username">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-            <input type="submit" class="fadeIn fourth" value="Log In">
+          <form action="/" method="get">
+            <div>
+            <input type="text" id="username" class="fadeIn second" name="username" placeholder="select username" required>
+          </div>
+          <div>
+            <input type="password" id="password" class="fadeIn third" name="password" placeholder=" enter password" required>
+          </div>
+          <div>
+            <button type="submit" class="fadeIn fourth" value="login">Log In</button>
+          </div>
           </form>
+          <a href="./">homepage</a>
       
           <!-- Remind Passowrd -->
           <div id="formFooter">
